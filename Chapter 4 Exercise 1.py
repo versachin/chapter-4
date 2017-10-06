@@ -1,4 +1,4 @@
-@@ -0,0 +1,42 @@
+
 import turtle
 wn = turtle.Screen()
 s = turtle.Turtle()
@@ -35,7 +35,7 @@ def make_square(turt,sz):
         
 wn = make_window("lightgreen","squares")
 s = make_turtle("blue", 5)
-for i in range(4):
+for i in range(5):
     make_square(s,20)
 
 
