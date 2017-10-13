@@ -1,7 +1,9 @@
 import turtle
 wn = turtle.Screen()
+wn.bgcolor("lightgreen")
 s = turtle.Turtle()
-
+s.color("hotpink")
+s.pensize(3)
 def make_square(sz):
        for i in range(4):
         s.pendown()
@@ -24,5 +26,8 @@ s.penup()
 s.setx(-80)
 s.sety(-80)
 make_square(180)
+s.penup()
+s.setx(-100)
+s.sety(-100)
 
 
