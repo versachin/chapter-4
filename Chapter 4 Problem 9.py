@@ -2,6 +2,7 @@
 #where the length of each side is 100 units.
 #(Hint: You should turn the turtle by 144 degrees at each point.)
 import turtle
+wn.bgcolor("lightgreen")
 alex=turtle.Turtle()
 def draw_star():
     alex.right(216)
