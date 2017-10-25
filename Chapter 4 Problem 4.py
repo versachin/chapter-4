@@ -1,6 +1,9 @@
 import turtle
 wn = turtle.Screen()
 s = turtle.Turtle()
+s.pensize(3)
+s.color("blue")
+wn.bgcolor("lightgreen")
 def make_square(sz):
        for i in range(4):
         s.pendown()
